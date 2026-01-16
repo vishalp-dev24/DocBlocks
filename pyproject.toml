@@ -1,0 +1,19 @@
+[project]
+name = "docblocks"
+version = "0.1.0"
+description = "PDF to structured text with page segmentation"
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.8"
+
+authors = [
+    { name = "Vishal", email = "vishal24.b.tech@email.com" }
+]
+
+dependencies = [
+    "pymupdf>=1.23.0"
+]
+
+[project.urls]
+Homepage = "https://github.com/vishalp-dev24/docblocks"
+Issues = "https://github.com/vishalp-dev24/docblocks/issues"
