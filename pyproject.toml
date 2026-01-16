@@ -1,13 +1,14 @@
 [project]
 name = "docblocks"
-version = "0.1.0"
+version = "0.1.1"
 description = "PDF to structured text with page segmentation"
 readme = "README.md"
 license = "MIT"
+license-files = ["LICENSE"]
 requires-python = ">=3.8"
 
 authors = [
-    { name = "Vishal", email = "vishal24.b.tech@email.com" }
+    { name = "Vishal"}
 ]
 
 dependencies = [
@@ -17,3 +18,7 @@ dependencies = [
 [project.urls]
 Homepage = "https://github.com/vishalp-dev24/docblocks"
 Issues = "https://github.com/vishalp-dev24/docblocks/issues"
+
+[build-system]
+requires = ["setuptools>=77.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
