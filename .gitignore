@@ -1,7 +1,18 @@
+# IDE / Editors
+.idea/
+.vscode/
+
+# Python cache
 __pycache__/
-*.egg-info/
+*.pyc
+*.pyo
+*.pyd
+
+# Build artifacts
 build/
 dist/
-*.pyc
+*.egg-info/
+
+# Virtualenvs
 venv/
-.env
+.env/
